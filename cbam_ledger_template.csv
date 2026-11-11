@@ -1,0 +1,4 @@
+shipment_id,cn_code,origin_country,net_mass_tonnes,mwh,shipment_date,supplier_installation,carbon_price_paid_origin_eur_per_t,importer,actual_tco2e_per_t
+S1,7208,TR,380,,2026-03-14,Example Steel AS / Izmir,,,
+S2,7601,CN,90,,2026-Q1,,,,
+E1,2716 00 00,RS,,40000,2026-02-01,,,,
