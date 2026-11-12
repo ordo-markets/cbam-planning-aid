@@ -11,7 +11,7 @@ leaves the reader's browser.
 
 | page | content | basis |
 |---|---|---|
-| What CBAM asks | the explainer C1–C5 | 37 quotes from the official texts, retrieved 2026-11-02 |
+| What CBAM asks | the explainer C1–C5 | 54 quotes from the official texts, retrieved 2026-11-02 |
 | Worked example | one pilot line, step by step | Commission defaults, the Commission's Q1 2026 price, arithmetic |
 | CN 7307 pilot (fictional) | 10 invented lines, 4 invented importers | the same; the calculation reproduces the Commission's Guidance No. 4 and No. 5f examples |
 | Your ledger | your own CSV ledger, computed in your browser and sent nowhere: per line, the 50-tonne threshold per importer, totals, 2026–2034, suppliers, a results CSV | the same tables, bundled; the calculation is a port of the Python calculator, tested field by field against it (P9) |
@@ -44,7 +44,7 @@ licensed for non-commercial use only), no model output of any kind, no real comp
 
 ## Corrections
 
-2026-11-09: Before publication of the ledger calculator: a line whose free allocation adjustment exceeds its embedded emissions showed a negative certificate figure. It now shows 0, as Implementing Regulation (EU) 2025/2620, recital 16, reads that case ("no CBAM certificates would be due"); the excess is shown beside the line and is not set against another good, which no quoted text establishes. Seven quotes were added to the Sources page, each dated 2026-11-09. No published figure changes: the pilot has no such line. Report an error by opening an issue; it is
+2026-11-11: Seventeen quotes were added to the Sources page, each dated 2026-11-11: what a declaration on actual values needs (verification, the operator's monitoring plan and emissions report, the reporting period) and how the free allocation adjustment is computed on actual values (Implementing Regulation (EU) 2025/2620, Articles 2 and 3 and Annex point 3). The calculator now also shows, per line and in total, the part of the certificates that the mark-up on the default adds. No published figure changes. Report an error by opening an issue; it is
 checked against the cited official text, and if the text wins the item is corrected and logged on the Sources page.
 
-Built from the private repository's commit `b11a6c4`; this repository carries no history from it.
+Built from the private repository's commit `5c8523a`; this repository carries no history from it.
